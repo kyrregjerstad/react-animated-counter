@@ -2,7 +2,7 @@ import React, { memo, useEffect, useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { formatForDisplay, calculateDigitWidth } from "./util";
 import { usePrevious } from "./hooks";
-import "../styles.css";
+import "./styles.css";
 // Decimal element component
 var DecimalColumn = function (_a) {
     var className = _a.className;
